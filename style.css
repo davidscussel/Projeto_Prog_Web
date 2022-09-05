@@ -1,4 +1,4 @@
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     h1{
         display: none;
     }
@@ -6,7 +6,7 @@
         display: none;
     }
 }
-
+@media (min-width: 401px) {
 body{
     margin: 0px;
     line-height: 1.34;
@@ -214,4 +214,5 @@ textarea:focus, input:focus, select:focus {
     font-weight: 600;
     color: inherit;
     text-decoration: none;
+}
 }
