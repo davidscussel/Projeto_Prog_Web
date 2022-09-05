@@ -12,9 +12,9 @@ body{
     line-height: 1.34;
     direction: ltr;
     font-size: 12px;
+    background-color: #F0F2F5;
 }
 #wrapper {
-    background-color: #F0F2F5;
     padding: 72px 0px 112px;
 }
 #showIn{
