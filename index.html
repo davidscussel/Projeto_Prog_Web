@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Facebook – entre ou cadastre-se</title>
         <link rel="stylesheet" href="style.css" type="text/css">
@@ -29,17 +30,17 @@
                             <div id="divEnt">
                                 <div class="divIn" >
                                     <input id="inEmail" type="text" placeholder="Email ou telefone">
-                                    <input id="inEmailMob" type="text" placeholder="Número de celular ou email">
                                 </div>
                                 <div class="divIn">
                                     <input id="inSenha" type="password"  placeholder="Senha">
                                 </div>
                             </div>
                             <div id="divBut">
-                                <button id="butEntrar">Entrar</button>
+                                <button id="butEntrar" type="button">Entrar</button>
                             </div>
                             <div id="divEsq">
                                 <a id="linkEsq" href="">Esqueceu a senha?</a>
+                                <span id="indErro"></span>
                             </div>
                             <div id="divLinha"></div>
                             <div id="divCriar">
@@ -53,5 +54,28 @@
                 </div>
             </div>
         </div>
+        <div id="pagBusca">
+            <div id="menuBusca">
+                <select id="inDigimon" required="required">
+                    <option value="">Escolha um level de Digimon para a Busca</option>
+                    <option value="fresh">Fresh (BEBE I)</option>
+                    <option value="intraining">In Training (BEBE II)</option>
+                    <option value="training">Training (BEBEII)</option>
+                    <option value="rookie">Rookie (CRIANÇA)</option>
+                    <option value="champion">Champion (ADULTO)</option> 
+                    <option value="ultimate">Ultimate (PERFEITO)</option>
+                    <option value="mega">Mega (FINAL)</option>
+                    <option value="armor">Armor (ARMOR)</option>
+                </select>
+                <button id="butBusca" type="submit">Buscar</button>
+                <button id="butSair" type="submit">
+                    <img id="imgSair" src="sair.webp">
+                </button>
+            </div>
+            <div id="ansView"></div>
+        </div>
+        <div id="teste"></div>
+        <script src="script.js" type="text/javascript"></script>
+        </script>
     </body>
 </html>
